@@ -1,0 +1,36 @@
+$primary: #aaaaaa;
+$footer:#6f6f6f;
+
+footer{
+    background-color: $footer;
+    color: $primary;
+   padding: 20px;
+    width: 100%;
+    bottom: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-end;
+    
+}
+mat-icon{
+    margin-right: 10px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  
+}
+
+.action:hover{
+    transform: scale3d(1.1,1.1,1.2);
+}
